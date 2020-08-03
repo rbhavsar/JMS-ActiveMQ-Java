@@ -71,4 +71,6 @@ xoxo$ cd /Users/xoxo/Documents/apache-artemis-2.14.0/custombroker/bin
 xoxo$ ./artemis run
 ```
 
-
+http://localhost:8161/admin/ 
+User:admin
+Password :admin by default
