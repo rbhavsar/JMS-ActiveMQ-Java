@@ -35,3 +35,40 @@ Java message service - P2P - Pub Sub
 # Pub Sub Employee Management 
 
 ![](/screenshots/Pub-Sub-EmployeeManagement.jpg)
+
+# Three projects
+- JmsFundamentals
+- P2P
+- PubSub
+
+# 5 Types Message
+
+* Text 
+* Byte
+* Object
+* Stream
+* Map
+
+# Points
+- Set Message Priority
+- Message Filtering
+- Message Delay
+- Message expiration 
+- Request - Reply ( Ack ) message
+- Message divided in 3 parts ( headers,body, payload )
+
+# Active MQ
+
+- For this project used activemq Artemis
+- Create broker with below command 
+```
+xoxo$ cd apache-artemis-2.14.0/bin
+xoxo$ ./artemis create /users/xoxo/documents/apache-artemis-2.14.0/custombroker/
+```
+- Start broker 
+```
+xoxo$ cd /Users/xoxo/Documents/apache-artemis-2.14.0/custombroker/bin
+xoxo$ ./artemis run
+```
+
+
